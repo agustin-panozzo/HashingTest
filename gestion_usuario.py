@@ -3,7 +3,7 @@ from usuario import Usuario
 def generar_usuario() -> Usuario:
     nombre: str = input('Ingrese nombre de usuario: ')
     clave: str = input('Ingrese clave: ')
-    usuario_nuevo = Usuario(nombre, clave)
+    usuario_nuevo: Usuario = Usuario(nombre, clave)
 
     return usuario_nuevo
 
